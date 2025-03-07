@@ -11,8 +11,8 @@ export default function Home() {
           <p className="italic lg:text-xl">Converta seu pdf em .docx</p>
         </div>
         <div className="flex flex-col lg:flex-row gap-2 justify-center mt-8">
-          
-          <Input className="cursor-pointer lg:w-2/4" type="file"/>
+          <label htmlFor="file" className="p-1 px-3 rounded-lg bg-amber-400 cursor-pointer font-medium">Faça upload do seu arquivo aqui...</label>
+          <Input id="file" className="hidden cursor-pointer lg:w-2/4" type="file"/>
           <Button className="cursor-pointer">Converter</Button>
         </div>
       </div>
