@@ -11,13 +11,14 @@ export default function Home() {
           <p className="italic lg:text-xl">Converta seu pdf em .docx</p>
         </div>
         <div className="flex flex-col lg:flex-row gap-2 justify-center mt-8">
-          <Input className="cursor-pointer" type="file"/>
+          
+          <Input className="cursor-pointer lg:w-2/4" type="file"/>
           <Button className="cursor-pointer">Converter</Button>
         </div>
       </div>
       <footer className="absolute bottom-0 text-xs flex flex-col items-center w-full font-[400] text-gray-500 mb-4 lg:text-base  ">
           <p>&copy; ConvertDocx</p>
-          <p>Criado por <Link href="https://x.com/Kel_Abr" className="text-blue-600">Kel_abr</Link></p>
+          <p>Criado por <Link href="https://x.com/Kel_Abr" target="black" className="text-blue-600">Kel_abr</Link></p>
         </footer>
      
     </main>
